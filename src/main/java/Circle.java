@@ -14,7 +14,7 @@ public class Circle {
         return 2 * this.radius;
     }
     public double perimeter() {
-        return 2 + Math.PI * this.radius;
+        return 2 * Math.PI * this.radius;
     }
     public double area() {
         return Math.PI * this.radius * this.radius;
