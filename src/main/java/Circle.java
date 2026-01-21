@@ -4,7 +4,7 @@ public class Circle {
     public Circle(double radius) {
         this.radius = radius;
     }
-    public double getRedius() {
+    public double getRadius() {
         return this.radius;
     }
     public void setRadius(double radius) {
@@ -14,9 +14,9 @@ public class Circle {
         return 2 * this.radius;
     }
     public double perimeter() {
-        return 2 + 3.14 * this.radius;
+        return 2 + Math.PI * this.radius;
     }
     public double area() {
-        return 3.14 * this.radius * this.radius;
+        return Math.PI * this.radius * this.radius;
     }
 }
